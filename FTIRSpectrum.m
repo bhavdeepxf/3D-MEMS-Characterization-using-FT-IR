@@ -2,9 +2,8 @@
 % Description:
 % This script reads and visualizes FTIR spectra data (.dpt files) from a specified folder.
 % It identifies key vibrational modes (TO and LO) and marks their peaks.
-% Author: [Mano bhavdeep Venkatesan]
-% Date: [Date]
-% Version: 1.0
+% Author: [Mano Bhavdeep Venkatesan]
+% [2025]
 
 clc; clear; close all;
 
@@ -110,4 +109,5 @@ end
 % title('Zoom: LO Region (860–920 cm^{-1})');
 % legend('Location','best');
 % grid on;
+
 % end
