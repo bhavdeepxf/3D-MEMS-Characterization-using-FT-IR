@@ -1,4 +1,4 @@
-%% FTIR_Fresnel_Model
+% FTIR_Fresnel_Model
 % Purpose:
 %   Compare experimental FTIR spectra with a theoretical Fresnel reflection
 %   model for multilayer AlN-based thin-film structures.
@@ -205,3 +205,4 @@ xlim([400 1200]);
 grid on;
 
 set(gca, 'XDir', 'normal');
+
