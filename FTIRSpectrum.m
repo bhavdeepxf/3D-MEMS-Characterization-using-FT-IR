@@ -1,4 +1,4 @@
-%% FTIRspectrum.m
+% FTIRspectrum
 % Description:
 % This script reads and visualizes FTIR spectra data (.dpt files) from a specified folder.
 % It identifies key vibrational modes (TO and LO) and marks their peaks.
@@ -111,3 +111,4 @@ end
 % grid on;
 
 % end
+
