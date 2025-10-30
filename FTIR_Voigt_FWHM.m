@@ -1,5 +1,4 @@
-%% FTIR_VoigtFit
-% -------------------------------------------------------------------------
+% FTIR_VoigtFit
 % Purpose:
 %   Automatically detect and fit characteristic AlN FTIR peaks
 %   (A1(TO), E1(TO), A1(LO)) using Voigt line-shape fitting.
@@ -13,7 +12,7 @@
 %
 % Author: [Mano Bhavdeep Venkatesan]
 % [2025]
-% -------------------------------------------------------------------------
+
 
 clc; clear; close all;
 
@@ -186,4 +185,5 @@ for k = 1:max_files
     title(files(k).name, 'Interpreter', 'none');
     grid on;
     xlim([550,950]);
+
 end
